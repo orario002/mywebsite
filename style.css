@@ -1,0 +1,238 @@
+/*heightlight color - #95adcf*/
+
+@import "file/bootstrap-social.less";
+@font-face {
+    font-family: Strato;
+    src: url(font/strato-unlinked.otf);
+}
+
+@font-face {
+    font-family: Destain;
+    src: url(font/destain.otf);
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: Strato;
+    margin: 5%;
+    color: #5a5b69;
+    font-size: 2em;
+}
+
+.text-center {
+    padding: 0;
+}
+
+.text-center li:first-child {
+    border-left: none;
+}
+
+.text-center li {
+    border-left: solid 2px;
+    display: inline;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    font-size: 1.5em;
+}
+
+a {
+    color: #95adcf;
+}
+
+a:visited,
+a:link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.me {
+    display: block;
+    margin: 0 auto;
+    margin: 15% auto 5%;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    clear: both;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    background: none;
+    color: #fff;
+    font-weight: 900;
+}
+
+.navbar-inverse {
+    background-color: #5a5b69;
+    color: #fff;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    font-family: Strato;
+}
+
+
+/*https://css-tricks.com/css3-gradients*/
+
+.navbar-transparent {
+    opacity: 0.8;
+    color: #fff;
+    border-color: transparent;
+    /* Fallback (could use .jpg/.png alternatively) */
+    background: #00bcd4;
+    background-color: #00bcd4;
+    /* SVG fallback for IE 9 (could be data URI, or could use filter) */
+    background-image: #00bcd4;
+    /* Safari 4, Chrome 1-9, iOS 3.2-4.3, Android 2.1-3.0 */
+    background-image: -webkit-gradient(linear, left top, right top, from(#6495ED), to(#43cea2));
+    /* Safari 5.1, iOS 5.0-6.1, Chrome 10-25, Android 4.0-4.3 */
+    background-image: -webkit-linear-gradient(315deg, #6495ED, #43cea2);
+    /* Firefox 3.6 - 15 */
+    background-image: -moz-linear-gradient(315deg, #6495ED, #43cea2);
+    /* Opera 11.1 - 12 */
+    background-image: -o-linear-gradient(315deg, #6495ED, #43cea2);
+    /* Opera 15+, Chrome 25+, IE 10+, Firefox 16+, Safari 6.1+, iOS 7+, Android 4.4+ */
+    background-image: linear-gradient(135deg, #6495ED, #43cea2);
+}
+
+footer {
+    clear: both;
+    color: grey;
+    padding: 1%;
+}
+
+.title {
+    width: 33.333%;
+    font-family: Strato;
+    font-size: 3em;
+    margin: 0 auto;
+    color: #95adcf;
+    display: block;
+}
+
+.title span {
+    display: block;
+}
+
+#about {
+    margin-top: 10%;
+    background-image: url(../image/capetown-top-mountain-front.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 10%;
+    width: 100%;
+}
+
+.about-trio-title {
+    font-weight: bold;
+    font-size: 1.75em;
+}
+
+.about-trio-description {
+    padding-left: 23.5%;
+    font-size: 1.25em;
+}
+
+.trio {
+    padding: 1%;
+    color: #fff;
+}
+
+.row {
+    margin: 5%;
+}
+
+.glyphicon {
+    color: #fff;
+    font-size: 1.2em;
+    padding: 5%;
+    margin: 3%;
+    background-color: #fff;
+    color: #95adcf;
+    border-radius: 50%;
+}
+
+.glyphicon:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.social-media li {
+    display: inline;
+    float: left;
+    margin: 1%;
+}
+
+.social-media {
+    margin: 0 auto;
+    padding: 0;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-social-icon>:first-child {
+    line-height: 50px;
+}
+
+.btn {
+    height: 50px;
+    width: 50px;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 50%;
+}
+
+.btn-behance {
+    background-color: #0a67ff;
+    color: #fff;
+}
+
+.glyphicon-envelope {
+    background-color: #fff;
+    font-size: 2em;
+    color: #95adcf;
+    margin: 1%;
+    padding: 0;
+}
+
+.social-media .fa {
+    color: #fff;
+}
+
+.icon-services .fa {
+    color: #95adcf;
+    padding-left: 15px;
+    font-size: 1.15em;
+}
+
+#contact {
+    color: grey;
+}
+
+#contact .fa {
+    color: pink;
+}
+
+@media only screen and (max-width: 500px) {
+    #about {
+        background-color: #95adcf;
+        background-image: none;
+    }
+}
+
+.img-description {
+    bottom: 2%;
+}
